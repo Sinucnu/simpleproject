@@ -11,6 +11,6 @@ public class Calc {
 		int a=30, b=10;
 		System.out.println("I am in add method");
 		Assertions.assertEquals(40, a+b);
-	}
+}
 	
 }
