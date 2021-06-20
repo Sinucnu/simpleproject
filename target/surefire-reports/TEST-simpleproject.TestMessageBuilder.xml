@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="simpleproject.TestMessageBuilder" time="0.032" tests="2" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="simpleproject.TestMessageBuilder" time="0.029" tests="2" errors="0" skipped="0" failures="1">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\Srini\AppData\Local\Temp\surefire8627653728174446110\surefirebooter770162904892747639.jar C:\Users\Srini\AppData\Local\Temp\surefire8627653728174446110 2021-06-17T09-35-01_467-jvmRun1 surefire5630397185408066218tmp surefire_01318094280546423152tmp"/>
+    <property name="sun.java.command" value="C:\Users\Srini\AppData\Local\Temp\surefire433262586864549064\surefirebooter3441086863031305149.jar C:\Users\Srini\AppData\Local\Temp\surefire433262586864549064 2021-06-20T20-46-15_531-jvmRun1 surefire743615520882521591tmp surefire_04608702875855547374tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\Srini\Eclipse21\June&apos;21\simpleproject\target\test-classes;C:\Users\Srini\Eclipse21\June&apos;21\simpleproject\target\classes;C:\Users\Srini\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.3.1\junit-jupiter-engine-5.3.1.jar;C:\Users\Srini\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\Srini\.m2\repository\org\junit\platform\junit-platform-engine\1.3.1\junit-platform-engine-1.3.1.jar;C:\Users\Srini\.m2\repository\org\junit\platform\junit-platform-commons\1.3.1\junit-platform-commons-1.3.1.jar;C:\Users\Srini\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\Srini\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.3.1\junit-jupiter-api-5.3.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Srini"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Srini\AppData\Local\Temp\surefire8627653728174446110\surefirebooter770162904892747639.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Srini\AppData\Local\Temp\surefire433262586864549064\surefirebooter3441086863031305149.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_291\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -60,10 +60,10 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="testNumber10" classname="simpleproject.TestMessageBuilder" time="0.007">
+  <testcase name="testNumber10" classname="simpleproject.TestMessageBuilder" time="0.011">
     <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <10> but was: <11>
 	at simpleproject.TestMessageBuilder.testNumber10(TestMessageBuilder.java:15)
 ]]></failure>
   </testcase>
-  <testcase name="testHelloWorld" classname="simpleproject.TestMessageBuilder" time="0.001"/>
+  <testcase name="testHelloWorld" classname="simpleproject.TestMessageBuilder" time="0.007"/>
 </testsuite>

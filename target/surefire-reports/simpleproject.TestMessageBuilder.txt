@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: simpleproject.TestMessageBuilder
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.032 s <<< FAILURE! - in simpleproject.TestMessageBuilder
-simpleproject.TestMessageBuilder.testNumber10  Time elapsed: 0.007 s  <<< FAILURE!
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.029 s <<< FAILURE! - in simpleproject.TestMessageBuilder
+simpleproject.TestMessageBuilder.testNumber10  Time elapsed: 0.011 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: expected: <10> but was: <11>
 	at simpleproject.TestMessageBuilder.testNumber10(TestMessageBuilder.java:15)
 
