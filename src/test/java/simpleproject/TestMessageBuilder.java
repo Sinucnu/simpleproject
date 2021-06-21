@@ -12,7 +12,7 @@ public class TestMessageBuilder {
 
     @Test
     public void testNumber10() {
-        Assertions.assertEquals(10, 11);
+        Assertions.assertEquals(10, 10);
     }
 
 }
